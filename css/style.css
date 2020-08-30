@@ -151,6 +151,7 @@ h1 {
     /* 24px */
     margin-top: 1.42em;
     margin-bottom: 0em;
+    font-family: 'Google Sans', sans-serif;
 }
 
 h2 {
@@ -160,6 +161,7 @@ h2 {
     /* 24px */
     margin-top: 1.1429em;
     margin-bottom: 0em;
+    font-family: 'Google Sans', sans-serif;
 }
 
 h3 {
@@ -169,6 +171,7 @@ h3 {
     /* 24px */
     margin-top: 1.3333em;
     margin-bottom: 0em;
+    font-family: 'Google Sans', sans-serif;
 }
 
 h4 {
@@ -178,6 +181,7 @@ h4 {
     /* 24px */
     margin-top: 1.5em;
     margin-bottom: 0em;
+    font-family: 'Google Sans', sans-serif;
 }
 
 h5 {
@@ -187,6 +191,7 @@ h5 {
     /* 24px */
     margin-top: 1.7143em;
     margin-bottom: 0em;
+    font-family: 'Google Sans', sans-serif;
 }
 
 strong {
@@ -201,6 +206,7 @@ small {
     /* 24px */
     margin-top: 2em;
     margin-bottom: 0em;
+    font-family: 'Google Sans', sans-serif;
 }
 
 em {
@@ -217,11 +223,12 @@ em {
     text-align: center;
     background: #1abc9c;
     color: white;
-    font-size: 37px;
+    font-size: 35px;
     font-weight: bold;
     letter-spacing: -1px;
     padding-right: 15px;
     padding-left: 15px;
+    text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
     background: -webkit-linear-gradient(45deg, #1abc9c, #8353EC);
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -593,7 +600,7 @@ section#screenshots .entry-content {
 section#screenshots .align {
     text-align: center;
     margin-top: 10px;
-    font-size: 6em;
+    font-size: 5em;
 }
 
 
@@ -632,6 +639,7 @@ section#features {
     font-size: 3em;
     margin-bottom: 1em;
     margin-top: 0.5em;
+    font-family: 'Google Sans', sans-serif;
 }
 
 section#features h2 {
@@ -648,7 +656,7 @@ section#features p {
 section#features .align {
     text-align: center;
     margin-top: 10px;
-    font-size: 6em;
+    font-size: 5em;
 }
 
 section#features .align .sev_icon {
@@ -702,7 +710,7 @@ section#testimonials .blockquote-wrapper {
 blockquote.mega {}
 
 blockquote.mega p {
-    font-size: 45px;
+    font-size: 44px;
     line-height: 50px;
     text-align: left;
     font-family: 'Google Sans', sans-serif;
@@ -723,7 +731,7 @@ section#downloads {
 }
 
 section#downloads .align {
-    font-size: 6em;
+    font-size: 5em;
     margin-top: 10px;
     text-align: center;
     color: #ffffff;
@@ -784,7 +792,7 @@ section#team, section#credits {
 }
 
 section#team .align, section#credits .align {
-    font-size: 6em;
+    font-size: 5em;
     margin-top: 10px;
     text-align: center;
 }
@@ -891,13 +899,13 @@ section#credits h2.featurette-heading {
         text-align: center;
         background: #1abc9c;
         color: white;
-        font-size: 37px;
+        font-size: 34px;
         color: #a3bbf0;
         font-weight: bold;
         padding-right: 10px;
         padding-left: 10px;
-        letter-spacing: -2px;
-        text-shadow: 0 0 18px #eee);
+        letter-spacing: -1px;
+        text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
         background: -webkit-linear-gradient(45deg, #1abc9c, #8353EC);
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -913,13 +921,13 @@ section#credits h2.featurette-heading {
         text-align: center;
         background: #1abc9c;
         color: white;
-        font-size: 29px;
+        font-size: 23px;
         padding-right: 12px;
         padding-left: 12px;
         color: #a3bbf0;
         font-weight: bold;
-        letter-spacing: -2px;
-        text-shadow: 0 0 18px #eee);
+        letter-spacing: -1px;
+        text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
         background: -webkit-linear-gradient(45deg, #1abc9c, #8353EC);
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -942,7 +950,7 @@ section#credits h2.featurette-heading {
         letter-spacing: -2px;
         background: -webkit-linear-gradient(#b0b3b8, #ffffff);
         -webkit-background-clip: text;
-        text-shadow: 0 0 18px #eee);
+        text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
 
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -951,16 +959,16 @@ section#credits h2.featurette-heading {
 }
 @media (max-width: 1000px) {
     .rr-header {
-        padding: 8px;
-        padding-top: 30px;
+        padding-top: 0px;
         display: inline-block;
         text-align: center;
+        margin-top: -44px;
         background: #1abc9c;
         color: white;
-        font-size: 49px;
+        font-size: 55px;
         font-weight: bold;
         letter-spacing: -2px;
-        text-shadow: 0 0 18px #eee);
+        text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
         background: -webkit-linear-gradient(#b0b3b8, #ffffff);
         -webkit-background-clip: text;
         -moz-background-clip: text;
