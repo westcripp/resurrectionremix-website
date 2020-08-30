@@ -46,16 +46,15 @@ CONTENTS:
 div, article, section, header, footer, nav, li {
     position: relative;
 }
+
+@media (max-width: 550px) {
 html,body
 {
-    width: 100%;
-    margin-right: 0px;
-    padding-right: 0px;
+    width: 97.2%;
     overflow-x: hidden;
-    min-width:500px;
-
+    position: absolute;
 }
-
+}
 .group:after {
     display: block;
     height: 0;
