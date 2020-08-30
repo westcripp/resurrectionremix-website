@@ -46,15 +46,6 @@ CONTENTS:
 div, article, section, header, footer, nav, li {
     position: relative;
 }
-
-@media (max-width: 550px) {
-html,body
-{
-    width: 97.2%;
-    overflow-x: hidden;
-    position: absolute;
-}
-}
 .group:after {
     display: block;
     height: 0;
@@ -387,11 +378,13 @@ ul#menu-main>li>a:hover {
 
 
 .headerwrap {
-    background-size: 600% 600%;
     text-align: center;
     min-height: 600px;
     margin-top: -60px;
     padding-top: 160px;
+    padding-top: 160px;
+    margin-right: -21px;
+    margin-left: -21px;
     background: linear-gradient(270deg, #290e3f, #5b105f, #0f6e5b, #47209d);
     background-size: 800% 800%;
     
@@ -400,7 +393,9 @@ ul#menu-main>li>a:hover {
     -o-animation: AnimationName 15s ease infinite;
     animation: AnimationName 15s ease infinite;
 }
-
+body {
+    overflow-x: hidden;
+}
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
