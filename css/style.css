@@ -130,11 +130,11 @@ ul, ol {
 body, input, textarea {}
 
 a:link, a:visited {
-    color: #75a8ff;
+    color: #a3bbf0;
 }
 
 a:hover, a:active {
-    color: #75a8ff;
+    color: #a3bbf0;
     text-decoration: underline;
 }
 
@@ -209,7 +209,7 @@ em {
 }
 
 .muted {
-    color: #75a8ff;
+    color: #a3bbf0;
     font-family: 'Google Sans', sans-serif;
 }
 .thanx {
@@ -244,16 +244,16 @@ em {
 }
 
 .more-link:link, .more-link:visited {
-    color: #75a8ff;
+    color: #a3bbf0;
     text-transform: uppercase;
 }
 
 .github-source-link:link, .github-source-link:visited {
-    color: #75a8ff;
+    color: #a3bbf0;
 }
 
 .features-link:link, .features-link:visited {
-    color: #75a8ff;
+    color: #a3bbf0;
 }
 
 
@@ -330,7 +330,7 @@ em {
 
 .navbar .brand a:hover {
     text-decoration: none;
-    color: #75a8ff;
+    color: #a3bbf0;
     transition: color .15s linear;
     -webkit-transition: color .15s linear;
     -moz-transition: color .15s linear;
@@ -566,7 +566,7 @@ section.single-page h1 {
 
 section#screenshots {
     padding-bottom: 0;
-     background:rgba(0,0,0,0.3);
+     background:rgba(0,0,0,0.2);
 }
 
 section#screenshots h1 {
@@ -655,7 +655,7 @@ section#features .align .sev_icon {
     text-align: center;
     margin: 10px 0 20px 0;
     font-size: 0.6em;
-    color: #75a8ff;
+    color: #a3bbf0;
 }
 
 section#features .span3 {
@@ -683,7 +683,7 @@ section#features .span3:hover {
 
 section#testimonials {
     height: 647px;
-    background:rgba(0,0,0,0.5);
+    background:rgba(0,0,0,0.4);
     padding: 0;
     color: #000;
     z-index: 500;
@@ -730,7 +730,7 @@ section#downloads .align {
 }
 
 article.post {
-    background:rgba(0,0,0,0.3);
+    background:rgba(0,0,0,0.1);
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
@@ -892,7 +892,7 @@ section#credits h2.featurette-heading {
         background: #1abc9c;
         color: white;
         font-size: 37px;
-        color: #75a8ff;
+        color: #a3bbf0;
         font-weight: bold;
         padding-right: 10px;
         padding-left: 10px;
@@ -916,7 +916,7 @@ section#credits h2.featurette-heading {
         font-size: 29px;
         padding-right: 12px;
         padding-left: 12px;
-        color: #75a8ff;
+        color: #a3bbf0;
         font-weight: bold;
         letter-spacing: -2px;
         text-shadow: 0 0 18px #eee);
@@ -991,7 +991,7 @@ section#credits h2.featurette-heading {
     display: block;
     border: 0;
     text-transform: none;
-    background: #75a8ff !important;
+    background: #a3bbf0 !important;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
