@@ -45,6 +45,7 @@
 div, article, section, header, footer, nav, li {
     position: relative;
 }
+
 .group:after {
     display: block;
     height: 0;
@@ -127,11 +128,11 @@ ul, ol {
 body, input, textarea {}
 
 a:link, a:visited {
-    color: #a3bbf0;
+    color: #75a8ff;
 }
 
 a:hover, a:active {
-    color: #a3bbf0;
+    color: #75a8ff;
     text-decoration: underline;
 }
 
@@ -148,7 +149,6 @@ h1 {
     /* 24px */
     margin-top: 1.42em;
     margin-bottom: 0em;
-    font-family: 'Google Sans', sans-serif;
 }
 
 h2 {
@@ -158,7 +158,6 @@ h2 {
     /* 24px */
     margin-top: 1.1429em;
     margin-bottom: 0em;
-    font-family: 'Google Sans', sans-serif;
 }
 
 h3 {
@@ -168,7 +167,6 @@ h3 {
     /* 24px */
     margin-top: 1.3333em;
     margin-bottom: 0em;
-    font-family: 'Google Sans', sans-serif;
 }
 
 h4 {
@@ -178,7 +176,6 @@ h4 {
     /* 24px */
     margin-top: 1.5em;
     margin-bottom: 0em;
-    font-family: 'Google Sans', sans-serif;
 }
 
 h5 {
@@ -188,7 +185,6 @@ h5 {
     /* 24px */
     margin-top: 1.7143em;
     margin-bottom: 0em;
-    font-family: 'Google Sans', sans-serif;
 }
 
 strong {
@@ -203,7 +199,6 @@ small {
     /* 24px */
     margin-top: 2em;
     margin-bottom: 0em;
-    font-family: 'Google Sans', sans-serif;
 }
 
 em {
@@ -212,7 +207,7 @@ em {
 }
 
 .muted {
-    color: #a3bbf0;
+    color: #75a8ff;
     font-family: 'Google Sans', sans-serif;
 }
 .thanx {
@@ -220,12 +215,11 @@ em {
     text-align: center;
     background: #1abc9c;
     color: white;
-    font-size: 35px;
+    font-size: 37px;
     font-weight: bold;
     letter-spacing: -1px;
     padding-right: 15px;
     padding-left: 15px;
-    text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
     background: -webkit-linear-gradient(45deg, #1abc9c, #8353EC);
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -248,16 +242,16 @@ em {
 }
 
 .more-link:link, .more-link:visited {
-    color: #a3bbf0;
+    color: #75a8ff;
     text-transform: uppercase;
 }
 
 .github-source-link:link, .github-source-link:visited {
-    color: #a3bbf0;
+    color: #75a8ff;
 }
 
 .features-link:link, .features-link:visited {
-    color: #a3bbf0;
+    color: #75a8ff;
 }
 
 
@@ -334,7 +328,7 @@ em {
 
 .navbar .brand a:hover {
     text-decoration: none;
-    color: #a3bbf0;
+    color: #75a8ff;
     transition: color .15s linear;
     -webkit-transition: color .15s linear;
     -moz-transition: color .15s linear;
@@ -382,13 +376,11 @@ ul#menu-main>li>a:hover {
 
 
 .headerwrap {
+    background-size: 600% 600%;
     text-align: center;
     min-height: 600px;
     margin-top: -60px;
     padding-top: 160px;
-    padding-top: 160px;
-    margin-right: -21px;
-    margin-left: -21px;
     background: linear-gradient(270deg, #290e3f, #5b105f, #0f6e5b, #47209d);
     background-size: 800% 800%;
     
@@ -397,9 +389,7 @@ ul#menu-main>li>a:hover {
     -o-animation: AnimationName 15s ease infinite;
     animation: AnimationName 15s ease infinite;
 }
-body {
-    overflow-x: hidden;
-}
+
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
@@ -570,7 +560,7 @@ section.single-page h1 {
 
 section#screenshots {
     padding-bottom: 0;
-    background:rgba(0,0,0,0.2);
+    background:rgba(0,0,0,0.3);
 }
 
 section#screenshots h1 {
@@ -597,7 +587,7 @@ section#screenshots .entry-content {
 section#screenshots .align {
     text-align: center;
     margin-top: 10px;
-    font-size: 5em;
+    font-size: 6em;
 }
 
 
@@ -636,7 +626,6 @@ section#features {
     font-size: 3em;
     margin-bottom: 1em;
     margin-top: 0.5em;
-    font-family: 'Google Sans', sans-serif;
 }
 
 section#features h2 {
@@ -653,14 +642,14 @@ section#features p {
 section#features .align {
     text-align: center;
     margin-top: 10px;
-    font-size: 5em;
+    font-size: 6em;
 }
 
 section#features .align .sev_icon {
     text-align: center;
     margin: 10px 0 20px 0;
     font-size: 0.6em;
-    color: #a3bbf0;
+    color: #75a8ff;
 }
 
 section#features .span3 {
@@ -688,7 +677,7 @@ section#features .span3:hover {
 
 section#testimonials {
     height: 647px;
-    background:rgba(0,0,0,0.4);
+    background:rgba(0,0,0,0.5);
     padding: 0;
     color: #000;
     z-index: 500;
@@ -707,7 +696,7 @@ section#testimonials .blockquote-wrapper {
 blockquote.mega {}
 
 blockquote.mega p {
-    font-size: 44px;
+    font-size: 45px;
     line-height: 50px;
     text-align: left;
     font-family: 'Google Sans', sans-serif;
@@ -728,14 +717,14 @@ section#downloads {
 }
 
 section#downloads .align {
-    font-size: 5em;
+    font-size: 6em;
     margin-top: 10px;
     text-align: center;
     color: #ffffff;
 }
 
 article.post {
-    background:rgba(0,0,0,0.1);
+    background:rgba(0,0,0,0.3);
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
@@ -789,7 +778,7 @@ section#team, section#credits {
 }
 
 section#team .align, section#credits .align {
-    font-size: 5em;
+    font-size: 6em;
     margin-top: 10px;
     text-align: center;
 }
@@ -896,13 +885,13 @@ section#credits h2.featurette-heading {
         text-align: center;
         background: #1abc9c;
         color: white;
-        font-size: 34px;
-        color: #a3bbf0;
+        font-size: 37px;
+        color: #75a8ff;
         font-weight: bold;
         padding-right: 10px;
         padding-left: 10px;
-        letter-spacing: -1px;
-        text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
+        letter-spacing: -2px;
+        text-shadow: 0 0 18px #eee);
         background: -webkit-linear-gradient(45deg, #1abc9c, #8353EC);
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -918,13 +907,13 @@ section#credits h2.featurette-heading {
         text-align: center;
         background: #1abc9c;
         color: white;
-        font-size: 23px;
+        font-size: 29px;
         padding-right: 12px;
         padding-left: 12px;
-        color: #a3bbf0;
+        color: #75a8ff;
         font-weight: bold;
-        letter-spacing: -1px;
-        text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
+        letter-spacing: -2px;
+        text-shadow: 0 0 18px #eee);
         background: -webkit-linear-gradient(45deg, #1abc9c, #8353EC);
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -947,7 +936,7 @@ section#credits h2.featurette-heading {
         letter-spacing: -2px;
         background: -webkit-linear-gradient(#b0b3b8, #ffffff);
         -webkit-background-clip: text;
-        text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
+        text-shadow: 0 0 18px #eee);
         
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -956,16 +945,16 @@ section#credits h2.featurette-heading {
 }
 @media (max-width: 1000px) {
     .rr-header {
-        padding-top: 0px;
+        padding: 8px;
+        padding-top: 30px;
         display: inline-block;
         text-align: center;
-        margin-top: -44px;
         background: #1abc9c;
         color: white;
-        font-size: 55px;
+        font-size: 49px;
         font-weight: bold;
         letter-spacing: -2px;
-        text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
+        text-shadow: 0 0 18px #eee);
         background: -webkit-linear-gradient(#b0b3b8, #ffffff);
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -996,7 +985,7 @@ section#credits h2.featurette-heading {
     display: block;
     border: 0;
     text-transform: none;
-    background: #a3bbf0 !important;
+    background: #75a8ff !important;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
