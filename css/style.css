@@ -298,7 +298,7 @@ em {
  ---------------------------------------------------------------------------------------------------------- */
 .navbar-inverse .navbar-inner {
     background-repeat: repeat;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.6);
     background-size: 100% auto;
     backdrop-filter: saturate(180%) blur(20px);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
