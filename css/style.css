@@ -297,7 +297,7 @@ em {
  04 Navbar ------------------------------------------------------------
  ---------------------------------------------------------------------------------------------------------- */
 .navbar-inverse .navbar-inner {
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.4);
     backdrop-filter: saturate(180%) blur(20px);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     -moz-backdrop-filter: saturate(180%) blur(20px);
