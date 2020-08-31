@@ -739,8 +739,7 @@ section#downloads .align {
 
 article.post {
     background:rgba(0,0,0,0.1);
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
+    border-radius: 16px;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
     -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
