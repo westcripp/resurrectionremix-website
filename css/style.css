@@ -23,25 +23,24 @@
 
 
 /*
-===========================
-CONTENTS:
-
-01 Sensible defaults
-02 Typography
-03 Non-semantic
-04 Navbar
-05 Single-Page Sections
-06 Footer
-07 Bootstrap Carousel
-08 Buttons
-09 Media queries
-===========================
-*/
+ ===========================
+ CONTENTS:
+ 01 Sensible defaults
+ 02 Typography
+ 03 Non-semantic
+ 04 Navbar
+ 05 Single-Page Sections
+ 06 Footer
+ 07 Bootstrap Carousel
+ 08 Buttons
+ 09 Media queries
+ ===========================
+ */
 
 
 /* ----------------------------------------------------------------------------------------------------------
-01 Sensible defaults ----------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------- */
+ 01 Sensible defaults ----------------------------------------------------------------------------------------
+ ---------------------------------------------------------------------------------------------------------- */
 
 div, article, section, header, footer, nav, li {
     position: relative;
@@ -93,20 +92,18 @@ input, button, select, textarea {
 
 
 /* ----------------------------------------------------------------------------------------------------------
-02 Typography -----------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------- */
+ 02 Typography -----------------------------------------------------------------------------------------------
+ ---------------------------------------------------------------------------------------------------------- */
 
 
 /*
-
-14 / 16	= 		0.875em 		(14px equivalent)
-16 / 16	= 		1em 			(16px equivalent)
-18 / 16 = 		1.125em 		(18px equivalent)
-21 / 16 = 		1.3125em 		(21px equivalent)
-24 / 16 = 		1.5em 			(24px equivalent)
-30 / 16 = 		1.875em 		(30px equivalent)
-
-*/
+ 14 / 16    =         0.875em         (14px equivalent)
+ 16 / 16    =         1em             (16px equivalent)
+ 18 / 16 =         1.125em         (18px equivalent)
+ 21 / 16 =         1.3125em         (21px equivalent)
+ 24 / 16 =         1.5em             (24px equivalent)
+ 30 / 16 =         1.875em         (30px equivalent)
+ */
 
 p {
     font-size: 1em;
@@ -116,7 +113,7 @@ p {
     margin: 0 0 1.5em 0;
     padding-right: 15px;
     padding-left: 15px;
-
+    
 }
 
 ul, ol {
@@ -265,8 +262,8 @@ em {
 
 
 /* ----------------------------------------------------------------------------------------------------------
-03 Non-semantic ------------------------------------------------------------
----------------------------------------------------------------------------------------------------------- */
+ 03 Non-semantic ------------------------------------------------------------
+ ---------------------------------------------------------------------------------------------------------- */
 
 
 /* New Image Replacement Hack */
@@ -297,8 +294,8 @@ em {
 
 
 /* ----------------------------------------------------------------------------------------------------------
-04 Navbar ------------------------------------------------------------
----------------------------------------------------------------------------------------------------------- */
+ 04 Navbar ------------------------------------------------------------
+ ---------------------------------------------------------------------------------------------------------- */
 .navbar-inverse .navbar-inner {
     background-repeat: repeat;
     background: rgba(0,0,0,0.4);
@@ -314,10 +311,10 @@ em {
 }
 .navbar-fixed-top .container {
     /* Uncomment to make nav expand full width */
-    /*	width: auto; */
+    /*    width: auto; */
     min-height: 81px;
-
-
+    
+    
 }
 
 .navbar .brand {
@@ -380,8 +377,8 @@ ul#menu-main>li>a:hover {
 
 
 /* ----------------------------------------------------------------------------------------------------------
-05 Single-Page Sections ------------------------------------------------------------
----------------------------------------------------------------------------------------------------------- */
+ 05 Single-Page Sections ------------------------------------------------------------
+ ---------------------------------------------------------------------------------------------------------- */
 
 
 .headerwrap {
@@ -394,7 +391,7 @@ ul#menu-main>li>a:hover {
     margin-left: -21px;
     background: linear-gradient(270deg, #290e3f, #5b105f, #0f6e5b, #47209d);
     background-size: 800% 800%;
-    -webkit-backface-visibility: hidden;
+    
     -webkit-animation: AnimationName 15s ease infinite;
     -moz-animation: AnimationName 15s ease infinite;
     -o-animation: AnimationName 15s ease infinite;
@@ -497,7 +494,7 @@ body {
 
 ul.icon {
     text-align: center;
-
+    
     font-size: 54px;
     margin: 1em 0 0.5em 0;
 }
@@ -533,7 +530,7 @@ section.single-page h1 {
     background:rgba(0,0,0,0.3);
     height: 406px;
     z-index: 500;
-
+    
 }
 
 #feature article {
@@ -573,7 +570,7 @@ section.single-page h1 {
 
 section#screenshots {
     padding-bottom: 0;
-     background:rgba(0,0,0,0.2);
+    background:rgba(0,0,0,0.2);
 }
 
 section#screenshots h1 {
@@ -632,7 +629,7 @@ section#screenshots .align {
 section#features {
     padding-bottom: 9.5em;
     background:rgba(0,0,0,0.3);
-
+    
 }
 
 #features h1 {
@@ -739,7 +736,8 @@ section#downloads .align {
 
 article.post {
     background:rgba(0,0,0,0.1);
-    border-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
     -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
@@ -910,7 +908,7 @@ section#credits h2.featurette-heading {
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
         -moz-text-fill-color: transparent;
-
+        
     }
 }
 @media (max-width: 1000px) {
@@ -932,7 +930,7 @@ section#credits h2.featurette-heading {
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
         -moz-text-fill-color: transparent;
-
+        
     }
 }
 /* RR header text */
@@ -950,7 +948,7 @@ section#credits h2.featurette-heading {
         background: -webkit-linear-gradient(#b0b3b8, #ffffff);
         -webkit-background-clip: text;
         text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
-
+        
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
         -moz-text-fill-color: transparent;
@@ -1053,13 +1051,13 @@ hr.featurette-divider {
 
 
 /* ----------------------------------------------------------------------------------------------------------
-06 Footer ------------------------------------------------------------
----------------------------------------------------------------------------------------------------------- */
+ 06 Footer ------------------------------------------------------------
+ ---------------------------------------------------------------------------------------------------------- */
 
 #footer-wrapper {
     margin-top: 0px;
     background:rgba(0,0,0,0.3);
-
+    
 }
 
 footer {
@@ -1069,19 +1067,19 @@ footer {
     font-weight: bold;
     width: 100%;
     background:rgba(0,0,0,0.3);
-
+    
 }
 
 footer p {
     margin-top: 0px;
     background:rgba(0,0,0,0.3);
-
+    
 }
 
 
 /* ----------------------------------------------------------------------------------------------------------
-07 Bootstrap Carousel ------------------------------------------------------------
----------------------------------------------------------------------------------------------------------- */
+ 07 Bootstrap Carousel ------------------------------------------------------------
+ ---------------------------------------------------------------------------------------------------------- */
 
 .carousel-caption {
     background-color: transparent;
@@ -1131,7 +1129,7 @@ footer p {
 }
 
 .banner-caption {
-    /*	width: 18%; */
+    /*    width: 18%; */
     position: absolute;
     left: 20%;
     top: 10%;
@@ -1162,8 +1160,8 @@ footer p {
 
 
 /* ----------------------------------------------------------------------------------------------------------
-08 Buttons ------------------------------------------------------------
----------------------------------------------------------------------------------------------------------- */
+ 08 Buttons ------------------------------------------------------------
+ ---------------------------------------------------------------------------------------------------------- */
 
 .btn {
     font-family: 'Google Sans', sans-serif;
@@ -1188,14 +1186,14 @@ footer p {
     -moz-box-shadow: none;
     box-shadow: 0 0 1px #eee;
     background: linear-gradient(to right, #1abc9c, #8353EC);
-
+    
 }
 
 .btn:link, .btn:visited {
     color: #fff;
     font-style: bold;
     text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-
+    
 }
 
 .btn:hover {
@@ -1204,7 +1202,7 @@ footer p {
     color: #fff;
     box-shadow: 0 0 10px #eee;
     background-position: right center; /* change the direction of the change here */
-
+    
 }
 
 .navbar-inverse .btn-navbar {
@@ -1214,21 +1212,21 @@ footer p {
     border-radius: 2px;
     border-color: rgba(255,255,255,1);
     box-shadow: 0 0 1px #333;
-
+    
 }
 
 
 /* ----------------------------------------------------------------------------------------------------------
-09 Media queries --------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------- */
+ 09 Media queries --------------------------------------------------------------------------------------------
+ ---------------------------------------------------------------------------------------------------------- */
 
 
 /* RESPONSIVE
--------------------------------------------------- */
+ -------------------------------------------------- */
 
 @media (max-width: 1186px) {
     .banner-caption {
-        /*	width: 18%; */
+        /*    width: 18%; */
         position: absolute;
         left: 20%;
         top: 6%;
@@ -1378,7 +1376,7 @@ footer p {
     }
     /* Feature */
     #feature-badge {
-        /*	display: none; */
+        /*    display: none; */
     }
     /* Screenshots & Downloads */
     #downloads h1 {
