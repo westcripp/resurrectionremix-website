@@ -309,9 +309,7 @@ em {
 }
 .navbar-fixed-top .container {
     /* Uncomment to make nav expand full width */
-    /*    width: auto; */
-    min-height: 81px;
-    
+    /*    width: auto; */    
     
 }
 
