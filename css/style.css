@@ -394,7 +394,7 @@ ul#menu-main>li>a:hover {
     margin-left: -21px;
     background: linear-gradient(270deg, #290e3f, #5b105f, #0f6e5b, #47209d);
     background-size: 800% 800%;
-    
+    -webkit-backface-visibility: hidden;
     -webkit-animation: AnimationName 15s ease infinite;
     -moz-animation: AnimationName 15s ease infinite;
     -o-animation: AnimationName 15s ease infinite;
