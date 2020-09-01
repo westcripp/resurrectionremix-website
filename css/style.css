@@ -375,7 +375,10 @@ ul#menu-main>li>a:hover {
 /* ----------------------------------------------------------------------------------------------------------
  05 Single-Page Sections ------------------------------------------------------------
  ---------------------------------------------------------------------------------------------------------- */
-
+}
+body {
+    overflow-x: hidden;
+}
 
 .headerwrap {
     text-align: center;
@@ -384,34 +387,33 @@ ul#menu-main>li>a:hover {
     padding-top: 160px;
     margin-right: -21px;
     margin-left: -21px;
-    background: linear-gradient(86deg, #116c5d, #351d70, #3e2b58, #027f8c);
+    background: linear-gradient(270deg, #290e3f, #5b105f, #0f6e5b, #47209d);
     background-size: 800% 800%;
     
-    -webkit-animation: AnimationName 16s ease infinite;
-    -moz-animation: AnimationName 16s ease infinite;
-    -o-animation: AnimationName 16s ease infinite;
-    animation: AnimationName 16s ease infinite;
-}
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    -o-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 54%}
-    50%{background-position:100% 47%}
-    100%{background-position:0% 54%}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 54%}
-    50%{background-position:100% 47%}
-    100%{background-position:0% 54%}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 @-o-keyframes AnimationName {
-    0%{background-position:0% 54%}
-    50%{background-position:100% 47%}
-    100%{background-position:0% 54%}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 @keyframes AnimationName {
-    0%{background-position:0% 54%}
-    50%{background-position:100% 47%}
-    100%{background-position:0% 54%}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 #headerwrap h1 {
