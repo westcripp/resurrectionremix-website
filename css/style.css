@@ -375,7 +375,6 @@ ul#menu-main>li>a:hover {
 /* ----------------------------------------------------------------------------------------------------------
  05 Single-Page Sections ------------------------------------------------------------
  ---------------------------------------------------------------------------------------------------------- */
-}
 body {
     overflow-x: hidden;
 }
@@ -394,6 +393,7 @@ body {
     -moz-animation: AnimationName 15s ease infinite;
     -o-animation: AnimationName 15s ease infinite;
     animation: AnimationName 15s ease infinite;
+}
 
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 50%}
