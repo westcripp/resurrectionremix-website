@@ -386,13 +386,13 @@ body {
     padding-top: 160px;
     margin-right: -21px;
     margin-left: -21px;
-    background: linear-gradient(270deg, #402466, #512466, #246566, #3d2466);
-    background-size: 800% 800%;
+    background: linear-gradient(270deg, #402466, #246566, #3d2466);
+    background-size: 600% 600%;
     
-    -webkit-animation: AnimationName 8s ease infinite;
-    -moz-animation: AnimationName 8s ease infinite;
-    -o-animation: AnimationName 8s ease infinite;
-    animation: AnimationName 8s ease infinite;
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    -o-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
