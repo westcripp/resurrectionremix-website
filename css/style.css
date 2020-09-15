@@ -297,7 +297,7 @@ em {
  04 Navbar ------------------------------------------------------------
  ---------------------------------------------------------------------------------------------------------- */
 .navbar-inverse .navbar-inner {
-    background: rgba(0,0,0,0.4);
+    background: rgba(12,12,14,0.4);
     backdrop-filter: saturate(180%) blur(20px);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     -moz-backdrop-filter: saturate(180%) blur(20px);
@@ -633,7 +633,7 @@ section#features .align .sev_icon {
 }
 
 section#features .span3 {
-    background:rgba(0,0,0,0.2);
+    background:rgba(255,255,255,0.1);
     padding: 20px 0;
     margin-bottom: 30px;
     min-width: 30%;
@@ -649,7 +649,7 @@ section#features .span3 {
 section#features .span3:hover {
     color: #ffffff;
     border-radius: 16px;
-    background:rgba(0,0,0,0.2);
+    background:rgba(210,210,210,0.1);
 }
 
 
@@ -704,7 +704,7 @@ section#downloads .align {
 }
 
 article.post {
-    background:rgba(0,0,0,0.1);
+    background:rgba(255,255,255,0.1);
     border-radius: 16px;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
@@ -715,6 +715,8 @@ article.post {
 
 article.post:hover {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    background:rgba(210,210,210,0.1);
+
 }
 
 article .inside {
