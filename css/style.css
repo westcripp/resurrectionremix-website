@@ -386,8 +386,34 @@ body {
     padding-top: 160px;
     margin-right: -21px;
     margin-left: -21px;
-    background: #0C0C0E;
+    background: linear-gradient(270deg, #402466, #246566, #3d2466);
     background-size: 600% 600%;
+    
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    -o-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 #headerwrap h1 {
@@ -714,7 +740,6 @@ article.post {
 }
 
 article.post:hover {
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     background:rgba(210,210,210,0.1);
 
 }
