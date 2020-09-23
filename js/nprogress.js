@@ -1,5 +1,5 @@
 /*! NProgress (c) 2013, Rico Sta. Cruz
- *  http://ricostacruz.com/nprogress */
+ *  https://ricostacruz.com/nprogress */
 
 ;(function(factory) {
 
