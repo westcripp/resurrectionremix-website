@@ -746,6 +746,14 @@ article.post:hover {
 
 }
 
+article .inside {
+    margin: 18px 24px 24px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: transparent;
+
+}
+
 .post-date {
     color: #C82328;
     float: right;
@@ -1031,6 +1039,14 @@ div.cform-response-output {
 
 
 /* Featurettes */
+
+hr.featurette-divider {
+    margin: 3em 0;
+    border-width: 0;
+    height: 9px;
+    background: transparent;
+
+}
 
 
 /* ----------------------------------------------------------------------------------------------------------
