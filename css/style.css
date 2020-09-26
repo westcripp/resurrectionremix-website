@@ -221,7 +221,7 @@ em {
     color: white;
     font-size: 35px;
     font-weight: 300px;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
     padding-right: 15px;
     padding-left: 15px;
     text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
@@ -896,7 +896,7 @@ section#credits h2.featurette-heading {
         font-weight: 300px;
         padding-right: 290px;
         padding-left: 290px;
-        letter-spacing: 0px;
+        letter-spacing: -2px;
         text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
         background: white;
         -webkit-background-clip: text;
@@ -917,8 +917,8 @@ section#credits h2.featurette-heading {
         padding-right: 19px;
         padding-left: 19px;
         color: #a3bbf0;
-        font-weight: bold;
-        letter-spacing: 0px;
+        font-weight: 300px;
+        letter-spacing: -2px;
         text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
         background: white;
         -webkit-background-clip: text;
@@ -938,7 +938,7 @@ section#credits h2.featurette-heading {
         color: white;
         font-size: 89px;
         padding-top: 140px;
-        font-weight: bold;
+        font-weight: 300px;
         letter-spacing: -2px;
         background: -webkit-linear-gradient(#b0b3b8, #ffffff);
         -webkit-background-clip: text;
@@ -958,7 +958,7 @@ section#credits h2.featurette-heading {
         background: #1abc9c;
         color: white;
         font-size: 55px;
-        font-weight: bold;
+        font-weight: 300px;
         letter-spacing: -2px;
         text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
         background: -webkit-linear-gradient(#b0b3b8, #ffffff);
