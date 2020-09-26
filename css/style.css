@@ -220,7 +220,7 @@ em {
     background: #1abc9c;
     color: white;
     font-size: 35px;
-    font-weight: bold;
+    font-weight: 300px;
     letter-spacing: -1px;
     padding-right: 15px;
     padding-left: 15px;
@@ -893,7 +893,7 @@ section#credits h2.featurette-heading {
         color: white;
         font-size: 35px;
         color: #a3bbf0;
-        font-weight: bold;
+        font-weight: 300px;
         padding-right: 290px;
         padding-left: 290px;
         letter-spacing: 0px;
