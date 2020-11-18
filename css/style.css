@@ -894,6 +894,7 @@ section#credits h2.featurette-heading {
         font-size: 33px;
         color: #a3bbf0;
         font-weight: 350px;
+        margin-top: -90px;
         padding-right: 290px;
         padding-left: 290px;
         letter-spacing: 0px;
@@ -909,6 +910,7 @@ section#credits h2.featurette-heading {
 @media (max-width: 979px) {
     .rr-subheader {
         padding: 10px;
+        margin-top: -40px;
         display: inline-block;
         text-align: center;
         background: #1abc9c;
