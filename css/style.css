@@ -126,11 +126,11 @@ ul, ol {
 body, input, textarea {}
 
 a:link, a:visited {
-    color: #a3bbf0;
+    color: #CC0000;
 }
 
 a:hover, a:active {
-    color: #a3bbf0;
+    color: #CC0000;
     text-decoration: underline;
 }
 
@@ -211,7 +211,7 @@ em {
 }
 
 .muted {
-    color: #a3bbf0;
+    color: #CC0000;
     font-family: 'Google Sans', sans-serif;
 }
 .thanx {
@@ -247,16 +247,16 @@ em {
 }
 
 .more-link:link, .more-link:visited {
-    color: #a3bbf0;
+    color: #CC0000;
     text-transform: uppercase;
 }
 
 .github-source-link:link, .github-source-link:visited {
-    color: #a3bbf0;
+    color: #CC0000;
 }
 
 .features-link:link, .features-link:visited {
-    color: #a3bbf0;
+    color: #CC0000;
 }
 
 
@@ -329,7 +329,7 @@ em {
 
 .navbar .brand a:hover {
     text-decoration: none;
-    color: #a3bbf0;
+    color: #CC0000;
     transition: color .15s linear;
     -webkit-transition: color .15s linear;
     -moz-transition: color .15s linear;
@@ -385,7 +385,7 @@ body {
     padding-top: 160px;
     margin-right: -21px;
     margin-left: -21px;
-    background: linear-gradient(270deg, #402466, #246566, #3d2466);
+    background: black;
     background-size: 600% 600%;
     
     -webkit-animation: AnimationName 15s ease infinite;
@@ -655,7 +655,7 @@ section#features .align .sev_icon {
     text-align: center;
     margin: 10px 0 20px 0;
     font-size: 0.6em;
-    color: #a3bbf0;
+    color: #CC0000;
 }
 
 section#features .span3 {
@@ -895,7 +895,7 @@ section#credits h2.featurette-heading {
         background: #1abc9c;
         color: white;
         font-size: 33px;
-        color: #a3bbf0;
+        color: #CC0000;
         font-weight: 350px;
         margin-top: -90px;
         padding-right: 290px;
@@ -939,7 +939,6 @@ section#credits h2.featurette-heading {
         padding: 0px;
         display: inline-block;
         text-align: center;
-        background: #1abc9c;
         color: white;
         font-size: 89px;
         padding-top: 120px;
@@ -960,7 +959,6 @@ section#credits h2.featurette-heading {
         display: inline-block;
         text-align: center;
         margin-top: -44px;
-        background: #1abc9c;
         color: white;
         font-size: 55px;
         font-weight: bold;
@@ -1180,7 +1178,7 @@ footer p {
     box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: 0 0 1px #eee;
-    background: linear-gradient(to right, #1abc9c, #8353EC);
+    background: #CC0000;
     
 }
 
@@ -1192,10 +1190,10 @@ footer p {
 }
 
 .btn:hover {
-    background: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
-    border-color: rgba(255,255,255,1);
+    background: #CC0000;
+    border-color: #CC0000;
     color: #fff;
-    box-shadow: 0 0 10px #eee;
+    box-shadow: 0 0 10px #CC0000;
     background-position: right center; /* change the direction of the change here */
     
 }
