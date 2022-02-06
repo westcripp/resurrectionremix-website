@@ -879,12 +879,12 @@ section#credits h2.featurette-heading {
         display: inline-block;
         text-align: center;
         background: #1abc9c;
-        font-size: 33px;
+        font-size: 30px;
         color: #fafafa;
         font-weight: 350px;
         margin-top: -90px;
-        padding-right: 290px;
-        padding-left: 290px;
+        margin-right: 17%;
+        margin-left: 17%;
         letter-spacing: 0px;
         text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
         background: white;
@@ -901,9 +901,9 @@ section#credits h2.featurette-heading {
         text-align: center;
         background: #1abc9c;
         font-size: 20px;
-        padding-right: 25px;
-        padding-left: 25px;
         color: #fafafa;
+        margin-right: 3%;
+        margin-left: 3%;
         font-weight: 350px;
         letter-spacing: 0px;
         text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
@@ -934,8 +934,8 @@ section#credits h2.featurette-heading {
         color: white;
         font-size: 85px;
         padding-top: 120px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-right: 10%;
+        margin-left: 10%;
         font-weight: bold;
         letter-spacing: -2px;
         background: -webkit-linear-gradient(#f5f5f5, #ffffff);
@@ -954,8 +954,6 @@ section#credits h2.featurette-heading {
         color: white;
         font-size: 48px;
         font-weight: bold;
-        margin-left: auto;
-        margin-right: auto;
         letter-spacing: -2px;
         text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
         background: -webkit-linear-gradient(#f5f5f5, #ffffff);
@@ -1184,7 +1182,7 @@ footer p {
      margin-bottom:50px;
 
 }
-@media (max-width: 979px) {
+@media (max-width: 600px) {
     .btn {
     transform:scale(0.84);
     width: 100%;
