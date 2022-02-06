@@ -1,0 +1,75 @@
+{% assign vertical_offset_for_trigger = 300 %}
+{% assign position_from_bottom = '6em' %}
+<a href="#" title="Back to the top" class="back-to-top no_highlights"> 
+<svg width="15px" height="15px" fill-opacity="0.5" fill="white" enable-background="new 0 0 492 492" viewBox="0 0 492 492" xmlns="http://www.w3.org/2000/svg"><path d="m442.627 185.388-177.544-177.544c-5.064-5.064-11.82-7.844-19.168-7.844-7.204 0-13.956 2.78-19.02 7.844l-177.548 177.544c-10.488 10.492-10.488 27.568 0 38.052l16.12 16.128c5.064 5.06 11.82 7.844 19.028 7.844 7.204 0 14.192-2.784 19.252-7.844l103.808-103.584v329.084c0 14.832 11.616 26.932 26.448 26.932h22.8c14.832 0 27.624-12.1 27.624-26.932v-330.252l104.396 104.752c5.06 5.06 11.636 7.844 18.844 7.844s13.864-2.784 18.932-7.844l16.072-16.128c10.492-10.488 10.452-27.56-.044-38.052z"/></svg>
+</a>
+<style>
+.back-to-top {
+ position: fixed;
+ bottom: 20em;
+ right: 15px;
+ text-decoration: none;
+ background-color: black;
+ backdrop-filter: saturate(180%) blur(20px);
+ -webkit-backdrop-filter: saturate(180%) blur(20px);
+-webkit-box-shadow: 0px 2px 26px -6px rgba(0,0,0,0.29);
+box-shadow: 0px 2px 26px -6px rgba(0,0,0,0.29);
+ font-size: 16px;
+ padding: 0.5em;
+ display: none;
+ border-radius: 6px;
+ z-index: 2;
+}
+@media only screen and (max-width: 768px) {
+ .back-to-top {
+ position: fixed;
+ right: 10px;
+ bottom: 20em;
+ text-decoration: none;
+ background-color: black;
+ backdrop-filter: saturate(180%) blur(20px);
+ -webkit-backdrop-filter: saturate(180%) blur(20px);
+-webkit-box-shadow: 0px 2px 26px -6px rgba(0,0,0,0.29);
+box-shadow: 0px 2px 26px -6px rgba(0,0,0,0.29);
+ font-size: 16px;
+ padding: 0.5em;
+ display: none;
+ border-radius: 6px;
+ z-index: 2;
+}
+ }
+.back-to-top i {
+ vertical-align: middle;
+}
+.back-to-top span {
+ padding-left: 0.5em;
+ padding-right: 0.5em;
+}
+.back-to-top i + span {
+ padding-left: 0;
+}
+.back-to-top:hover {
+ text-decoration: none;
+}
+</style>
+<script>
+window.onload = function() {
+ jQuery(function($) {
+ var offset = {{ vertical_offset_for_trigger }};
+ var duration = 500;
+ $(window).scroll(function() {
+ if ($(this).scrollTop() > offset) {
+ $('.back-to-top').fadeIn(duration);
+ } 
+ else {
+ $('.back-to-top').fadeOut(duration);
+ }
+ });
+ $('.back-to-top').unbind('click.smoothscroll').bind('click', function(e) {
+ e.preventDefault();
+ $('html, body').animate( { scrollTop: 0 }, duration);
+ return false;
+ })
+ });
+}
+</script>
