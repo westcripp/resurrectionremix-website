@@ -995,8 +995,7 @@ section#credits h2.featurette-heading {
 }
 }
 h12 {
-    background-image: url(https://media.giphy.com/media/xT9IgnYBVOd1Cusj2U/giphy.gif);
-
+    background: white;
     background-size: cover;
     color: transparent;
     -moz-background-clip: text;
