@@ -1157,6 +1157,7 @@ footer p {
 
 .btn:link, .btn:visited {
     color: #fff;
+    background: #CC0000;
     font-style: bold;
     text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
     
