@@ -228,8 +228,6 @@ em {
     background: white;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
     font-family: 'Google Sans', sans-serif;
 }
 .impressed {
@@ -869,7 +867,7 @@ section#credits h2.featurette-heading {
         background: #1abc9c;
         color: white;
         font-size: 33px;
-        color: #CC0000;
+        color: #fafafa;
         font-weight: 350px;
         margin-top: -90px;
         padding-right: 290px;
@@ -879,8 +877,6 @@ section#credits h2.featurette-heading {
         background: white;
         -webkit-background-clip: text;
         -moz-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-text-fill-color: transparent;
         
     }
 }
@@ -902,8 +898,6 @@ section#credits h2.featurette-heading {
         background: white;
         -webkit-background-clip: text;
         -moz-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-text-fill-color: transparent;
         
     }
 }
@@ -923,8 +917,6 @@ section#credits h2.featurette-heading {
         text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
         
         -moz-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-text-fill-color: transparent;
     }
 }
 @media (max-width: 979px) {
@@ -941,8 +933,6 @@ section#credits h2.featurette-heading {
         background: -webkit-linear-gradient(#f5f5f5, #ffffff);
         -webkit-background-clip: text;
         -moz-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-text-fill-color: transparent;
     }
 }
 
@@ -1066,6 +1056,11 @@ footer p {
 
 .carousel-caption .btn {
     margin-top: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.2);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     user-select: none;
+     overflow: hidden;
 }
 
 .carousel-control {
@@ -1152,6 +1147,11 @@ footer p {
     box-shadow: none;
     -moz-box-shadow: none;
     background: #CC0000;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.2);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     user-select: none;
+     overflow: hidden;
     
 }
 
@@ -1179,6 +1179,11 @@ footer p {
     border-radius: 2px;
     border-color: rgba(255,255,255,1);
     box-shadow: 0 0 1px #333;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.2);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     user-select: none;
+     overflow: hidden;
     
 }
 
