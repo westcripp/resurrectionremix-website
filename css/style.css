@@ -1129,7 +1129,6 @@ footer p {
     width: 225px;
     height: 20px;
     text-shadow: none;
-    letter-spacing: -1px;
     font-size: 1.3125em;
     /* 21px */
     padding: 1em 0.25em;
@@ -1150,9 +1149,14 @@ footer p {
     -webkit-user-select: none;
      user-select: none;
      overflow: hidden;
-    
-}
 
+}
+@media (max-width: 979px) {
+    .btn {
+    transform:scale(0.84);
+    width: 100%;
+    margin:0;
+    }}
 .btn:link, .btn:visited {
     color: #fff;
     background: #CC0000;
