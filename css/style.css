@@ -1307,6 +1307,7 @@ footer p {
     }
     .navbar .container {
         width: 100%;
+        background: black;
     }
     .navbar .brand {
         margin-top: 0;

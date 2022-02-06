@@ -3485,19 +3485,17 @@ button.btn.btn-mini, input[type=submit].btn.btn-mini {
 .navbar-inverse .btn-navbar {
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	background-color: #0e0e0e;
- *background-color: #040404;
+	background-color: #000;
 	background-repeat: repeat-x;
-	background-image: linear-gradient(to bottom, #151515, #040404);
-	border-left-color: #040404;
-	border-right-color: #040404;
-	border-top-color: #040404;
+	background-image: linear-gradient(to bottom, #000, #000);
+	border-left-color: #000;
+	border-right-color: #000;
+	border-top-color: #000;
 	border-bottom-color: #000000;
 }
 .navbar-inverse .btn-navbar:hover, .navbar-inverse .btn-navbar:focus, .navbar-inverse .btn-navbar:active, .navbar-inverse .btn-navbar.active, .navbar-inverse .btn-navbar.disabled, .navbar-inverse .btn-navbar[disabled] {
 	color: #ffffff;
-	background-color: #040404;
- *background-color: #000000;
+	background-color: #000;
 }
 .navbar-inverse .btn-navbar:active, .navbar-inverse .btn-navbar.active {
 	background-color: #000000 \9;

@@ -865,10 +865,12 @@
 }
  .navbar-fixed-top .navbar-inner,  .navbar-fixed-bottom .navbar-inner {
  padding: 25px;
+ background: black;
 }
  .navbar .container {
  width: auto;
  padding: 0;
+ background: black;
 }
  .navbar .brand {
  padding-right: 10px;
