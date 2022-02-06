@@ -220,7 +220,6 @@ em {
     background: #1abc9c;
     color: white;
     font-size: 33px;
-    font-weight: 350px;
     letter-spacing: 0px;
     padding-right: 15px;
     padding-left: 15px;
@@ -229,6 +228,13 @@ em {
     -webkit-background-clip: text;
     -moz-background-clip: text;
     font-family: 'Google Sans', sans-serif;
+}
+@media only screen and (max-width: 750px) {
+.thanx {
+    font-size: 29px;
+    padding-right: 1px;
+    padding-left: 1px;
+}
 }
 .impressed {
     text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5),
@@ -530,7 +536,6 @@ section.single-page h1 {
 
 #feature article p {
     font-family: 'Google Sans', sans-serif;
-    font-size: 40px;
     font-weight: bold;
     margin-bottom: 0;
     line-height: 1.35;
@@ -1050,11 +1055,12 @@ footer {
     font-weight: bold;
     width: 100%;
     background:rgba(0,0,0,0.3);
+    padding-bottom: 33px;
     
 }
 
 footer p {
-    margin-top: 0px;
+    margin-top: 20px;
     background:rgba(0,0,0,0.3);
     
 }
