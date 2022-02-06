@@ -934,10 +934,10 @@ section#credits h2.featurette-heading {
         display: inline-block;
         text-align: center;
         color: white;
-        font-size: 89px;
+        font-size: 85px;
         padding-top: 120px;
         font-weight: bold;
-        letter-spacing: -3px;
+        letter-spacing: -2px;
         background: -webkit-linear-gradient(#f5f5f5, #ffffff);
         -webkit-background-clip: text;
         text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
@@ -952,9 +952,9 @@ section#credits h2.featurette-heading {
         text-align: center;
         margin-top: -44px;
         color: white;
-        font-size: 49px;
+        font-size: 46px;
         font-weight: bold;
-        letter-spacing: -3px;
+        letter-spacing: -2px;
         text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
         background: -webkit-linear-gradient(#f5f5f5, #ffffff);
         -webkit-background-clip: text;
