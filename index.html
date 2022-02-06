@@ -828,14 +828,16 @@ Resurrection Remix team is thankful to all the developers who contribute to cust
  bottom: 10em;
  right: 30px;
  text-decoration: none;
- background-color: black;
+ background-color: rgba(22, 22, 22, 0.33);
+ backdrop-filter: saturate(180%) blur(20px);
+ -webkit-backdrop-filter: saturate(180%) blur(20px);
 -webkit-box-shadow: 0px 2px 26px -6px rgba(0,0,0,0.29);
 box-shadow: 0px 2px 26px -6px rgba(0,0,0,0.29);
  font-size: 16px;
  padding: 0.5em;
  display: none;
  border-radius: 6px;
- z-index: 2;
+ z-index: 99999;
  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.2);
  -webkit-touch-callout: none;
  -webkit-user-select: none;
@@ -849,14 +851,13 @@ box-shadow: 0px 2px 26px -6px rgba(0,0,0,0.29);
  right: 15px;
  bottom: 10em;
  text-decoration: none;
- background-color: black;
 -webkit-box-shadow: 0px 2px 26px -6px rgba(0,0,0,0.29);
 box-shadow: 0px 2px 26px -6px rgba(0,0,0,0.29);
  font-size: 16px;
  padding: 0.5em;
  display: none;
  border-radius: 6px;
- z-index: 2;
+ z-index: 9999999;
  transform:scale(1.15);
 }
  }
