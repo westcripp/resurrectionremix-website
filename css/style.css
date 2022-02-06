@@ -232,8 +232,8 @@ em {
 @media only screen and (max-width: 750px) {
 .thanx {
     font-size: 29px;
-    padding-right: 1px;
-    padding-left: 1px;
+    padding-right: 3px;
+    padding-left: 3px;
 }
 }
 .impressed {
@@ -957,7 +957,7 @@ section#credits h2.featurette-heading {
         text-align: center;
         margin-top: -44px;
         color: white;
-        font-size: 43px;
+        font-size: 45px;
         font-weight: bold;
         letter-spacing: -2px;
         text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
