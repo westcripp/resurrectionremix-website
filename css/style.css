@@ -1009,25 +1009,6 @@ h12 {
 
 
 }
-/* styling my button */
-
-.white-mode {
-    text-decoration: none;
-    padding: 7px 10px;
-    background-color: #122;
-    border-radius: 3px;
-    color: #FFF;
-    transition: .35s ease-in-out;
-    position: absolute;
-    left: 15px;
-    bottom: 15px;
-    font-family: 'Google Sans', sans-serif;
-}
-
-.white-mode:hover {
-    background-color: #FFF;
-    color: #122;
-}
 
 #theme-form input[type=text] {
     height: 3.25em;
