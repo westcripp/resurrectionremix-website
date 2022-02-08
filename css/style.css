@@ -216,6 +216,7 @@ em {
     letter-spacing: 0px;
     padding-right: 15px;
     padding-left: 15px;
+    font-weight: 500;
     text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.18);
     background: white;
     -webkit-background-clip: text;
@@ -244,8 +245,13 @@ em {
 .more-link:link, .more-link:visited {
     color: #CC0000;
     text-transform: uppercase;
-}
+    font-weight: 500;
 
+}
+.semi-bold-font {
+    font-weight: 500;
+
+}
 .github-source-link:link, .github-source-link:visited {
     color: #CC0000;
 }
@@ -586,7 +592,6 @@ section#features {
     background:rgba(0,0,0,0.3);
     
 }
-
 #features h1 {
     font-size: 3em;
     margin-bottom: 1em;
@@ -598,6 +603,7 @@ section#features h2 {
     margin-bottom: 15px;
     margin-top: 10px;
     text-align: center;
+    font-weight: 500;
 }
 
 section#features p {
@@ -741,6 +747,8 @@ article .inside {
     margin-bottom: 16px;
     color: #ffffff;
     clear: right;
+    font-weight: 500;
+
 }
 
 
@@ -1109,8 +1117,8 @@ hr.featurette-divider {
 footer {
     text-align: center;
     color: #d9d9d9;
-    letter-spacing: 1px;
-    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-weight: 500;
     width: 100%;
     background:rgba(0,0,0,0.3);
     padding-bottom: 33px;
