@@ -138,7 +138,7 @@ a:hover, a:active {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
+    font-weight: 500;
     /* reset default browser weight for our webfonts */
 }
 
@@ -250,7 +250,6 @@ em {
 }
 .semi-bold-font {
     font-weight: 500;
-
 }
 .github-source-link:link, .github-source-link:visited {
     color: #CC0000;
