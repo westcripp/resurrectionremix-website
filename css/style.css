@@ -61,7 +61,9 @@ body {
     font-size: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0.2);
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    text-rendering: optimizeSpeed !important;
 
 }
 
