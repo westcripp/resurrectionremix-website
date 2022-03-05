@@ -230,7 +230,7 @@ Screenshots
 <div class="span4">
 <div class="mask2">
 <a href="img/screenshots/screenshot_01.png" rel="prettyPhoto">
-<img alt="" src="img/screenshots/screenshot_01.png" />
+<img alt="screenshot" class="lazy" data-src="img/screenshots/screenshot_01.png" />
 </a>
 </div>
 <div class="inside">
@@ -251,7 +251,7 @@ Don't get lost in the plethora of customization options.
 <div class="span4">
 <div class="mask2">
 <a href="img/screenshots/screenshot_02.png" rel="prettyPhoto">
-<img alt="" src="img/screenshots/screenshot_02.png" />
+<img alt="screenshot" class="lazy" data-src="img/screenshots/screenshot_02.png" />
 </a>
 </div>
 <div class="inside">
@@ -272,7 +272,7 @@ Quick settings toggles re-imagined to increase their utility.
 <div class="span4">
 <div class="mask2">
 <a href="img/screenshots/screenshot_03.png" rel="prettyPhoto">
-<img alt="" src="img/screenshots/screenshot_03.png" />
+<img alt="screenshot" class="lazy" data-src="img/screenshots/screenshot_03.png" />
 </a>
 </div>
 <div class="inside">
@@ -296,7 +296,7 @@ Experience your device in a new way with custom gesture controls.
 <div class="span4">
 <div class="mask2">
 <a href="img/screenshots/screenshot_04.png" rel="prettyPhoto">
-<img alt="" src="img/screenshots/screenshot_04.png" />
+<img alt="screenshot" class="lazy" data-src="img/screenshots/screenshot_04.png" />
 </a>
 </div>
 <div class="inside">
@@ -317,7 +317,7 @@ Customize every visible elements in the ROM, from status bar to navigation bar.
 <div class="span4">
 <div class="mask2">
 <a href="img/screenshots/screenshot_05.png" rel="prettyPhoto">
-<img alt="" src="img/screenshots/screenshot_05.png" />
+<img alt="screenshot" class="lazy" data-src="img/screenshots/screenshot_05.png" />
 </a>
 </div>
 <div class="inside">
@@ -338,7 +338,7 @@ Tweak your lockscreen's view and functionality with plenty of settings to custom
 <div class="span4">
 <div class="mask2">
 <a href="img/screenshots/screenshot_06.png" rel="prettyPhoto">
-<img alt="" src="img/screenshots/screenshot_06.png" />
+<img alt="screenshot" class="lazy" data-src="img/screenshots/screenshot_06.png" />
 </a>
 </div>
 <div class="inside">
@@ -880,5 +880,55 @@ window.onload = function() {
  })
  });
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  var lazyloadImages;    
+
+  if ("IntersectionObserver" in window) {
+    lazyloadImages = document.querySelectorAll(".lazy");
+    var imageObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          var image = entry.target;
+          image.src = image.dataset.src;
+          image.classList.remove("lazy");
+          imageObserver.unobserve(image);
+        }
+      });
+    });
+
+    lazyloadImages.forEach(function(image) {
+      imageObserver.observe(image);
+    });
+  } else {  
+    var lazyloadThrottleTimeout;
+    lazyloadImages = document.querySelectorAll(".lazy");
+    
+    function lazyload () {
+      if(lazyloadThrottleTimeout) {
+        clearTimeout(lazyloadThrottleTimeout);
+      }    
+
+      lazyloadThrottleTimeout = setTimeout(function() {
+        var scrollTop = window.pageYOffset;
+        lazyloadImages.forEach(function(img) {
+            if(img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src;
+              img.classList.remove('lazy');
+            }
+        });
+        if(lazyloadImages.length == 0) { 
+          document.removeEventListener("scroll", lazyload);
+          window.removeEventListener("resize", lazyload);
+          window.removeEventListener("orientationChange", lazyload);
+        }
+      }, 20);
+    }
+
+    document.addEventListener("scroll", lazyload);
+    window.addEventListener("resize", lazyload);
+    window.addEventListener("orientationChange", lazyload);
+  }
+})
 </script>
 </html>
